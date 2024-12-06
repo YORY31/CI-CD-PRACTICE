@@ -17,8 +17,5 @@ jobs:
         with:
           python-version: '3.9'
 
-      - name: Install dependencies
-        run: pip install unittest
-
       - name: Run unit tests
         run: python -m unittest tests/test_page.py
